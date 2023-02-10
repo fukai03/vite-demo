@@ -9,7 +9,7 @@ export default [
       return {
         code: 0,
         data: {
-          name: 'vben',
+          name: 'test Mock Get!!',
         },
       }
     },
@@ -21,7 +21,7 @@ export default [
     response: {
       code: 0,
       data: {
-        name: 'vben',
+        name: 'test Mock Post!!',
       },
     },
   },

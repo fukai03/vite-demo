@@ -1,10 +1,12 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import Mybutton from "./pages/button";
 
 function App() {
   const [count, setCount] = useState(0)
   console.log('App~')
+
 
   return (
     <div className="App">
@@ -28,6 +30,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <Mybutton />
     </div>
   )
 }
